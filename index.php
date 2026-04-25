@@ -1,0 +1,32 @@
+<?php
+require_once "Claases/Client.php";
+require_once "Claases/Employe.php";
+require_once "Claases/Administration.php";
+
+function afficherUtilisateur(Afficher $u) {
+    $this->afficher();
+}
+
+$client = new Client(1, "Cheikh", "cheikh12@gmail.com", "cheikh123", "1234", "premium");
+$employe = new Employe(2, "Daouda", "daouda12@gmail.com", "daouda23", "5678", 2000);
+$admin = new Administrateur(3, "Rokhaya", "rokhaya24@gmail.com", "admin", "root");
+
+echo "<h2>Tests :</h2>";
+
+$client->afficher();
+echo $client->seConnecter() . "<br>";
+echo "Reduction : " . $client->calculReduction(1000) . "<br><br>";
+
+$employe->afficher();
+echo "Salaire annuel : " . $employe->calculSalaireAnnuel() . "<br><br>";
+
+$admin->afficher();
+echo $admin->SupprimerUtilisateur() . "<br><br>";
+
+echo "<h2>Polymorphisme :</h2>";
+afficherUtlisateur($client);
+afficherUtlisateur($employe);
+afficherUtlisateur($admin);
+
+echo "<br><br>";
+echo Utilisateur::afficherNombre();
