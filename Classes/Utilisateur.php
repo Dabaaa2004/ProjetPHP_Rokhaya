@@ -1,5 +1,7 @@
 <?php
 require_once "Personne.php";
+require_once "Authentification.php";
+require_once "Afficher.php";
 
 abstract class Utilisateur extends Personne implements Authentification, Afficher {
 
