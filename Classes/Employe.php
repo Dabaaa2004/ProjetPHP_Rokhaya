@@ -6,6 +6,7 @@ class Employe extends Utilisateur {
 
     public function __construst($id, $nom, $email, $login, $motDePasse, $salaire) {
         parent::__construct($id, $nom, $email, $login, $motDePasse);
+        var_dump($salaire);
         $this->salaire = $salaire;
     }
 
