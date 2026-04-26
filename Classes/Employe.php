@@ -4,7 +4,7 @@ require_once "Classes/Utilisateur.php";
 class Employe extends Utilisateur {
     private $salaire;
 
-    public function __construst($id, $nom, $email, $login, $motDePasse, $salaire) {
+    public function __construct($id, $nom, $email, $login, $motDePasse, $salaire) {
         parent::__construct($id, $nom, $email, $login, $motDePasse);
         $this->salaire = $salaire;
     }
