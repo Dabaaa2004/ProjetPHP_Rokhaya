@@ -1,5 +1,5 @@
 <?php
-reauire_once "Classes/Utilisateur.php";
+require_once "Classes/Utilisateur.php";
 
 class Employe extends Utilisateur {
     private $salaire;
