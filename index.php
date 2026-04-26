@@ -4,7 +4,7 @@ require_once "Classes/Employe.php";
 require_once "Classes/Administration.php";
 
 function afficherUtilisateur(Affichable $u) {
-    $this->afficher();
+    $u->afficher();
 }
 
 $client = new Client(1, "Cheikh", "cheikh12@gmail.com", "cheikh123", "1234", "premium");
