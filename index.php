@@ -15,7 +15,7 @@ echo "<h2>Tests :</h2>";
 
 $client->afficher();
 echo $client->seConnecter() . "<br>";
-echo "Reduction : " . $client->calculReduction(1000) . "<br><br>";
+echo "Reduction : " . $client->calculerReduction(1000) . "<br><br>";
 
 $employe->afficher();
 echo "Salaire annuel : " . $employe->calculerSalaireAnnuel() . "<br><br>";
