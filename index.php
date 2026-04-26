@@ -4,13 +4,16 @@ require_once "Classes/Employe.php";
 require_once "Classes/Administration.php";
 require_once "Classes/Utilisateur.php";
 require_once "Classes/personne.php";
+require_once "Classes/Authentification.php";
+require_once "Classes/Affichable.php";
+
 
 function afficherUtilisateur(Affichable $u) {
     $u->afficher();
 }
 
 $client = new Client(1, "Cheikh", "cheikh12@gmail.com", "cheikh123", "1234", "premium");
-$employe = new Employe(2, "Daouda", "daouda12@gmail.com", "daouda23", "5678", 2000);
+$employe = new Employe(2, "Daouda", "daouda12@gmail.com", "daouda23", "5678", 45000);
 $admin = new Administrateur(3, "Rokhaya", "rokhaya24@gmail.com", "admin", "root");
 
 echo "<h2>Tests :</h2>";
