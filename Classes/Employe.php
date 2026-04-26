@@ -18,7 +18,6 @@ class Employe extends Utilisateur {
     }
 
     public function afficher() {
-        echo "DEBUG salaire = " . $this->salaire . "<br>";
         echo $this->afficherInfos() . " | Salaire : $this->salaire <br>";
     }
 }

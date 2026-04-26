@@ -2,6 +2,8 @@
 require_once "Classes/Client.php";
 require_once "Classes/Employe.php";
 require_once "Classes/Administration.php";
+require_once "Classes/Utilisateur.php";
+require_once "Classes/personne.php";
 
 function afficherUtilisateur(Affichable $u) {
     $u->afficher();
