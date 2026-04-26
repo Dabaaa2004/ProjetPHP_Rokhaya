@@ -18,7 +18,7 @@ echo $client->seConnecter() . "<br>";
 echo "Reduction : " . $client->calculReduction(1000) . "<br><br>";
 
 $employe->afficher();
-echo "Salaire annuel : " . $employe->calculSalaireAnnuel() . "<br><br>";
+echo "Salaire annuel : " . $employe->calculerSalaireAnnuel() . "<br><br>";
 
 $admin->afficher();
 echo $admin->SupprimerUtilisateur() . "<br><br>";
