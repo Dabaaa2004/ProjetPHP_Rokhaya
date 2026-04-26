@@ -14,7 +14,7 @@ public function __construct($id, $nom, $email, $login, $motDePasse) {
     parent ::__construct($id, $nom, $email);
     $this->login = $login;
     $this->motDePasse = $motDePasse;
-    self::$nombreUtilisateurss++;
+    self::$nombreUtilisateurs++;
 }
 
 public function seConnecter() {
