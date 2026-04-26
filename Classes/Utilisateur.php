@@ -3,7 +3,7 @@ require_once "Personne.php";
 require_once "Authentifiable.php";
 require_once "Affichable.php";
 
-abstract class Utilisateur extends Personne implements Authentification, Afficher {
+abstract class Utilisateur extends Personne implements Authentifiable, Affichable {
 
 protected $login;
 protected $motDePasse;
