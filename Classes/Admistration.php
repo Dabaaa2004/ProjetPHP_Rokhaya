@@ -1,5 +1,5 @@
 <?php
-require_once "Utilisateur.php";
+require_once "Classes/Utilisateur.php";
 
 class Administrateur extends Utilisateur {
     public function supprimerUtilisateur() {
