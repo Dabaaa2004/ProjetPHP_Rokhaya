@@ -6,7 +6,6 @@ class Employe extends Utilisateur {
 
     public function __construst($id, $nom, $email, $login, $motDePasse, $salaire) {
         parent::__construct($id, $nom, $email, $login, $motDePasse);
-        var_dump($salaire);
         $this->salaire = $salaire;
     }
 
@@ -19,6 +18,7 @@ class Employe extends Utilisateur {
     }
 
     public function afficher() {
+        echo "DEBUG salaire = " . $this->salaire . "<br>";
         echo $this->afficherInfos() . " | Salaire : $this->salaire <br>";
     }
 }
