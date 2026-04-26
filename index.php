@@ -4,7 +4,7 @@ require_once "Classes/Employe.php";
 require_once "Classes/Administration.php";
 require_once "Classes/Utilisateur.php";
 require_once "Classes/personne.php";
-require_once "Classes/Authentification.php";
+require_once "Classes/Authentifiable.php";
 require_once "Classes/Affichable.php";
 
 
