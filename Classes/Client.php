@@ -12,7 +12,7 @@ class Client extends Utilisateur {
         $this->typeClient = $typeClient;
     }
 
-    public function calculReduction($montant) {
+    public function calculerReduction($montant) {
         if ($this->typeClient == "premium") {
             return $montant * self::TAUX_PREMIUM;
         } else {
