@@ -1,5 +1,5 @@
 <?php
-require_once "Utilisateur.php";
+require_once "Classes/Utilisateur.php";
 
 class Client extends Utilisateur {
     private $typeClient;
