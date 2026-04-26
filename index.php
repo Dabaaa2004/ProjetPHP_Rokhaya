@@ -1,7 +1,7 @@
 <?php
-require_once "Claases/Client.php";
-require_once "Claases/Employe.php";
-require_once "Claases/Administration.php";
+require_once "Classes/Client.php";
+require_once "Classes/Employe.php";
+require_once "Classes/Administration.php";
 
 function afficherUtilisateur(Afficher $u) {
     $this->afficher();
