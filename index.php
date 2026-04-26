@@ -3,7 +3,7 @@ require_once "Classes/Client.php";
 require_once "Classes/Employe.php";
 require_once "Classes/Administration.php";
 
-function afficherUtilisateur(Afficher $u) {
+function afficherUtilisateur(Affichable $u) {
     $this->afficher();
 }
 
