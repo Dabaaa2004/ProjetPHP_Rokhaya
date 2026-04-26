@@ -24,9 +24,9 @@ $admin->afficher();
 echo $admin->SupprimerUtilisateur() . "<br><br>";
 
 echo "<h2>Polymorphisme :</h2>";
-afficherUtlisateur($client);
-afficherUtlisateur($employe);
-afficherUtlisateur($admin);
+afficherUtilisateur($client);
+afficherUtilisateur($employe);
+afficherUtilisateur($admin);
 
 echo "<br><br>";
 echo Utilisateur::afficherNombre();
